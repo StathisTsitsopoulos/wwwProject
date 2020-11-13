@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+   
+     <hibernate-mapping>  
+       <class name="productClass" table="names">  
+          <property name="product_name" type = "string" column="product_name"/>
+          <property name="barcode" type = "string" column="barcode"/> 
+          <property name="color" type = "string" column="color"/>
+		  <property name="description" type = "string" column = "description"/>
+       </class>  
+     </hibernate-mapping>  
